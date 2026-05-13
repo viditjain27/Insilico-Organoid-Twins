@@ -15,7 +15,7 @@ Decision-support tool — the oncologist decides treatment. Our output informs; 
 
 Project Overview
 
-In Silico Organoid Twins is a multi-scale computational platform that digitally replicates the drug response behaviour of patient-derived organoids (PDOs) — three-dimensional tumour structures cultivated from a patient's own cancer cells. Rather than growing physical organoids in a laboratory (a process requiring 4–6 weeks and over USD 10,000 per test panel), the platform computationally simulates the same biological processes from two clinical inputs: a histological biopsy image and a patient gene expression profile.
+In Silico Organoid Twins is a multi-scale computational platform that digitally replicates the drug response behaviour of patient-derived organoids (PDOs) - three-dimensional tumour structures cultivated from a patient's own cancer cells. Rather than growing physical organoids in a laboratory (a process requiring 4–6 weeks and over USD 10,000 per test panel), the platform computationally simulates the same biological processes from two clinical inputs: a histological biopsy image and a patient gene expression profile.
 
 The platform was developed as a competition submission to the All-Russian Scientific School "Young Medicine" 2025 under Biomedical Engineering and Digital Health Technologies.
 
@@ -74,25 +74,25 @@ Expected turnaround time: 1–4 hours instead of multiple weeks.
 
 Pipeline Architecture
 
-Module 1 — Organoid Geometry Reconstruction
+Module 1 - Organoid Geometry Reconstruction
 
 • Histopathological image segmentation using U-Net architectures
 • Reconstruction of tumour topology and spatial organisation
 • Generation of 3D organoid mesh structures
 
-Module 2 — Cellular Dynamics Simulation
+Module 2 - Cellular Dynamics Simulation
 
 • Agent-Based Modeling using PhysiCell
 • Cell proliferation, apoptosis, signalling, and interaction simulation
 • Incorporation of transcriptomic information into virtual cell agents
 
-Module 3 — Drug Modeling and Diffusion
+Module 3 - Drug Modeling and Diffusion
 
 • QSAR-based molecular property prediction
 • PDE-driven drug diffusion and metabolic transport modelling
 • Virtual IC50 prediction and dose-response estimation
 
-Module 4 — Clinical Interface
+Module 4 - Clinical Interface
 
 • Streamlit-based clinician dashboard
 • Real-time simulation monitoring
@@ -173,11 +173,15 @@ The project is conceptually supported by prior work in:
 
 Key references include:
 
-• Clevers H. Cell (2016) — Organoid disease modeling
-• Ronneberger et al. MICCAI (2015) — U-Net segmentation
-• Ghaffarizadeh et al. PLOS Computational Biology (2018) — PhysiCell framework
-• Vlachogiannis et al. Science (2018) — Organoid treatment response prediction
-• Tuveson and Clevers Science (2019) — Cancer modeling using organoids
+• Clevers H. Cell (2016) - Organoid disease modeling
+
+• Ronneberger et al. MICCAI (2015) - U-Net segmentation
+
+• Ghaffarizadeh et al. PLOS Computational Biology (2018) - PhysiCell framework
+
+• Vlachogiannis et al. Science (2018) - Organoid treatment response prediction
+
+• Tuveson and Clevers Science (2019) - Cancer modeling using organoids
 
 Full bibliography is available in the project documentation.
 
@@ -185,7 +189,7 @@ Full bibliography is available in the project documentation.
 
 Roadmap
 
-Phase 1 — Development
+Phase 1: Development
 
 • Data preprocessing pipeline
 • U-Net training and segmentation engine
@@ -193,14 +197,14 @@ Phase 1 — Development
 • Drug diffusion modeling
 • GPU acceleration optimization
 
-Phase 2 — Validation
+Phase 2: Validation
 
 • Pharmacogenomic benchmarking
 • Cross-validation workflows
 • Performance analysis
 • Benchmark dataset curation
 
-Phase 3 — Deployment
+Phase 3: Deployment
 
 • Clinical dashboard implementation
 • HPC deployment
