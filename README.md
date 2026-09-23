@@ -223,6 +223,8 @@ Team
 
 Contact: [solankinandini2001@gmail.com](mailto:solankinandini2001@gmail.com)
 
+Contact: [vidit0027@gmail.com](mailto:vidit0027@gmail.com)
+****
 ---
 
 Disclaimer
